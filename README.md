@@ -10,7 +10,9 @@ URL: http://api.prws.kr/ComciganString
 
 ## ComciganSchoolSearch
 URL: http://api.prws.kr/ComciganSchoolSearch
+
 Parameter(필수): SchoolName(학교명) or SchoolCode(학교코드)
+
 Parameter(선택): Region(지역)
 
 입력된 정보를 기반으로 학교를 검색합니다. 지역명은 경기, 서울 등 두 자리 약칭으로만 가능합니다.
@@ -18,6 +20,7 @@ Parameter(선택): Region(지역)
 
 ## ComciganTimeTable
 URL: http://api.prws.kr/ComciganTimeTable
+
 Parameter(필수): SchoolName(학교명) & Region(지역) or SchoolCode(학교코드)
 
 시간표 데이터를 호출합니다.
