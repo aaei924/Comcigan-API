@@ -3,6 +3,8 @@
 모두 GET으로 요청하시면 됩니다.
 데이터 기본값은 JSON이며, XML을 원할 경우 type 값에 xml을 입력하시면 됩니다.
 
+파라미터 전달 방식은 GET입니다.
+
 ## ComciganString
 URL: http://api.prws.kr/ComciganString
 
